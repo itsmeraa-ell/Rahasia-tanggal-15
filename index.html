@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Botol Mizone!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #e0f7fa, #ffe0b2);
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 3em;
+      color: #ff6f00;
+    }
+    p {
+      font-size: 1.5em;
+      color: #4e342e;
+      margin-bottom: 30px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+    audio {
+      margin-top: 30px;
+    }
+    .secret-button {
+      margin-top: 40px;
+      padding: 12px 25px;
+      background-color: #ff6f00;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.2em;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+    .secret-button:hover {
+      background-color: #ff8f00;
+    }
+  </style>
+</head>
+<body>
+  <h1>Have a fabulous birthday botol mizone🥳🥳</h1>
+  <p>Sehat selalu dan tetap tumbuh ya ka!</p>
+  <img src="botol-mizone.jpg" alt="Foto Botol Mizone" />
+  <audio autoplay loop>
+    <source src="lagu.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung pemutar audio.
+  </audio>
+
+  <button class="secret-button" onclick="showSurprise()">Jangan diklik!</button>
+
+  <script>
+    function showSurprise() {
+      alert('Surprise!! Semoga makin ganteng, makin sukses, dan selalu bahagia yaa! Ini dari fans berat kamu: si pembuat halaman rahasia ini hehe');
+    }
+  </script>
+</body>
+</html>
